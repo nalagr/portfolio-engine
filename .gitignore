@@ -1,0 +1,48 @@
+# Build and Output Directories
+build*/
+bin/
+lib/
+out/
+
+# MSVC & C++ Compilation Artifacts
+*.obj
+*.o
+*.ilk
+*.pdb
+*.idb
+*.tlog
+*.exe
+*.dll
+*.lib
+*.exp
+
+# Visual Studio & IDE files
+.vs/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+.vscode/
+.idea/
+
+# CMake Generated Files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+CTestTestfile.cmake
+Testing/
+
+# Simulation Output Runs
+portfolio_comparison.csv
+portfolio_simulation.csv
+*.png
+
+# Python & Virtual Environments (legacy / test scripts)
+__pycache__/
+*.pyc
+.venv/
+env/
+
+# Tooling outputs
+graphify-out/
